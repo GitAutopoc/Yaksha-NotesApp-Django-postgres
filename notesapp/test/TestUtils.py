@@ -5,7 +5,7 @@ import requests
 
 class TestUtils:
     GUID = "dc66f3c1-630f-40ab-8314-f7bb9ffcb71f"
-    URL = "https://yaksha-prod-sbfn.azurewebsites.net/api/YakshaMFAEnqueue?code=jSTWTxtQ8kZgQ5FC0oLgoSgZG7UoU9Asnmxgp6hLLvYId/GW9ccoLw=="
+    URL = "https://yaksha-stage-sbfn.azurewebsites.net/api/YakshaMFAEnqueue?code=JSssTES1yvRyHXshDwx6m405p0uSwbqnA937NaLAGX7zazwdLPC4jg=="
 
     @classmethod
     def yakshaAssert(self, test_name, result, test_type):
